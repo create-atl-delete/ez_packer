@@ -20,6 +20,6 @@ Supports the following
 ## Scripts
 Included Powershell scripts for several common configuration tasks:
 - Disabling UAC and/or Defender
-- Installing binaries (.exe/.msi, unarchived or .7z/.zip) downloaded from a specfified s3 bucket
+- Installing binaries (.exe/.msi, unarchived or .7z/.zip) downloaded from a specified S3 bucket
 - Installing common apps with [Chocolatey](https://chocolatey.org/)
 - Joining a domain using credentials from SecretsManager
