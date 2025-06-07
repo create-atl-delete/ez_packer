@@ -1,5 +1,5 @@
 # About
-Easy-to-use templated for Packer builds, specifically aimed at digital foresnsics workstations. 
+Easy-to-use templates for Packer builds, specifically aimed at digital foresnsics workstations. 
 
 # Ubuntu
 ## Connections
