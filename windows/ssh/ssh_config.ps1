@@ -1,5 +1,13 @@
 <powershell>
 
+write-output "Running User Data Script"
+write-host "(host) Running User Data Script"
+
+Set-ExecutionPolicy Unrestricted -Scope LocalMachine -Force -ErrorAction Ignore
+
+# Don't set this before Set-ExecutionPolicy as it throws an error
+$ErrorActionPreference = "stop"
+
 # Install sshd
 Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 
