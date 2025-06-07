@@ -15,7 +15,7 @@ Includes shell scripts for several common configuration tasks:
 Supports the following
 - WinRM
 - SSH over SSM (recommended)
-    - Possibly the biggest selling point of this repo. HashiCorp has completely neglected writing documentation for and providing examples on getting SSH over SSM to work. This template solves that. 
+    - Possibly the biggest selling point of this repo. HashiCorp has completely neglected writing documentation for and providing examples on getting SSH over SSM to _actually_ work. This template solves that. 
 
 ## Scripts
 Included Powershell scripts for several common configuration tasks:
